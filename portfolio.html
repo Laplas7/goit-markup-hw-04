@@ -31,35 +31,36 @@
             <li class="mrg-head"><a href="./index.html" class="site-nav-oth a-list ">Студія</a></li>
 
             <li class="mrg-head">
-              <a href="./portfolio.html" class=" site-nav-visit  portfolio-btn a-list">Портфоліо</a>
+              <a href="./portfolio.html" class=" site-nav-visit portfolio-btn a-list">Портфоліо</a>
             </li>
             <li ><a href="" class="site-nav-oth a-list marg">Контакти</a></li>
           </ul>
         </nav>
 
         <ul class="contacts">
-          <li class="mailto">
-            <a href="mailto:info@devstudio" class="mail"
-              >info@devstudio.com</a
+          <li class="mailto ">
+            <a href="mailto:info@devstudio" class="my-nav"
+              ><svg class="my-mail" width="16" height="12"><use href="./img/sprite.svg#mail"></use></svg>info@devstudio.com</a
             >
           </li>
-          <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
+          <li ><a  href="tel:+380961111111" class="tel my-nav"><svg class="my-mail" width="10" height="16"><use href="./img/sprite.svg#phone"></use></svg>+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
+
     <main >
       <section class="li-btn-p">
         <div class="container">
         <ul class="list-btn ">
-          <li class="list-btn-port"><button class="btn-static port-btn-list ">Усі</button></li>
-          <li class="list-btn-port"><button class="port-btn-list ">Веб сайти</button></li>
-          <li class="list-btn-port"><button class="port-btn-list ">Додатки</button></li>
-          <li class="list-btn-port"><button class="port-btn-list ">Дизайн</button></li>
-          <li class="list-btn-port"><button class="port-btn-list ">Маркетинг</button></li>
+          <li class="list-btn-port my-hover"><button class="btn-static port-btn-list ">Усі</button></li>
+          <li class="list-btn-port my-hover"><button class="port-btn-list ">Веб сайти</button></li>
+          <li class="list-btn-port my-hover"><button class="port-btn-list ">Додатки</button></li>
+          <li class="list-btn-port my-hover"><button class="port-btn-list ">Дизайн</button></li>
+          <li class="list-btn-port my-hover"><button class="port-btn-list ">Маркетинг</button></li>
         </ul>
       
         <ul class="project-list">
-          <li class="portfolio-list-stile">
+          <li class="portfolio-list-stile my-hover">
             <a href=""
               ><img
                 src="./imagine/portfolio1.jpg"
@@ -73,7 +74,7 @@
             
           </div></a>
           </li>
-          <li class="portfolio-list-stile">
+          <li class="portfolio-list-stile my-hover">
             <a href=""
               ><img src="./imagine/portfolio2.jpg" alt="дизайн " width="370" />
               <div class="port-wrapper">
@@ -81,7 +82,7 @@
               <p class="progect-oth-p">Дизайн</p>
             </div></a>
           </li>
-          <li class="portfolio-list-stile">
+          <li class="portfolio-list-stile my-hover">
             <a href=""
               ><img src="./imagine/portfolio3.jpg" alt="додаток " width="370" />
               <div class="port-wrapper">
@@ -89,7 +90,7 @@
               <p class="progect-oth-p">Додаток</p>
             </div></a>
           </li>
-          <li class="portfolio-list-stile">
+          <li class="portfolio-list-stile my-hover">
             <a href=""
               ><img
                 src="./imagine/portfolio4.jpg"
@@ -102,7 +103,7 @@
               
             </div></a>
           </li>
-          <li class="portfolio-list-stile">
+          <li class="portfolio-list-stile my-hover">
             <a href=""
               ><img src="./imagine/portfolio5.jpg" alt="додаток" width="370" />
               <div class="port-wrapper">
@@ -110,7 +111,7 @@
               <p class="progect-oth-p">Додаток</p>
             </div></a>
           </li>
-          <li class="portfolio-list-stile">
+          <li class="portfolio-list-stile my-hover">
             <a href=""
               ><img src="./imagine/portfolio6.jpg" alt="веб-сайт" width="370" />
               <div class="port-wrapper">
@@ -118,7 +119,7 @@
               <p class="progect-oth-p">Веб-сайт</p></div></a
             >
           </li>
-          <li class="portfolio-list-stile">
+          <li class="portfolio-list-stile my-hover">
             <a href=""
               ><img src="./imagine/portfolio7.jpg" alt="дизайн" width="370" />
               <div class="port-wrapper">
@@ -126,7 +127,7 @@
               <p class="progect-oth-p">Дизайн</p></div></a
             >
           </li>
-          <li class="portfolio-list-stile">
+          <li class="portfolio-list-stile my-hover">
             <a href=""
               ><img
                 src="./imagine/portfolio8.jpg"
@@ -138,7 +139,7 @@
               <p class="progect-oth-p">Маркетинг</p></div></a
             >
           </li>
-          <li class="portfolio-list-stile">
+          <li class="portfolio-list-stile my-hover">
             <a href=""
               ><img src="./imagine/portfolio9.jpg" alt="додаток" width="370" />
               <div class="port-wrapper">
@@ -151,8 +152,9 @@
       </section>
     </main>
     <footer class="footter-link ">
-      <div class="container">
-        
+      <div class="flex-con container">
+      <div >
+  
       <a class="logo-link-footer log-link" href=""
         ><span class="logo">Web</span>Studio</a
       >
@@ -164,6 +166,15 @@
         </ul>
       </address>
       </div>
+      <div class="footer-other">
+        <h3 class="other">приєднуйтесь</h3>
+        <ul class="footer-list">
+          <li class="footer-list-li"><a href="#" class="social-footer-link" ><svg class="social-footer-icon" width="20" height="20"><use href="./img/sprite.svg#instagram"></use></svg></a></li>
+          <li class="footer-list-li"><a href="#" class="social-footer-link" ><svg class="social-footer-icon" width="20" height="20"><use href="./img/sprite.svg#twitter"></use></svg></a></li>
+          <li class="footer-list-li"><a href="#" class="social-footer-link" ><svg class="social-footer-icon" width="20" height="20"><use href="./img/sprite.svg#facebook"></use></svg></a></li>
+          <li class="footer-list-li"><a href="#" class="social-footer-link" ><svg class="social-footer-icon" width="20" height="20"><use href="./img/sprite.svg#in"></use></svg></a></li>
+        </ul>
+       </div></div>
     </footer>
   </body>
 </html>
