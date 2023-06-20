@@ -43,6 +43,12 @@ li, p, ul, h1, h2 ,h3 , h4, h5, h6{
   display: flex;
 }
 
+.flex-con-foot {
+  display: flex;
+  align-items: baseline;
+}
+
+
 .conteiner-my {
   width: 1200px;
   margin-left: auto;
@@ -307,7 +313,7 @@ background-color: #2196f3;
   background-color: rgba(255, 255, 255, 10%);
   box-shadow:  0 4px 4px  rgba(0, 0, 0, 25%);
   border-radius: 50%;
- fill: #AFB1B8;
+ fill: #ffffff;
 width: 44px;
 height: 44px;
 }
@@ -318,8 +324,7 @@ height: 44px;
 
 .footer-other{
   margin-left: 70px;
-  margin-top: 12px;
-  margin-top: 40px;
+
 }
 
 .margin-two{
@@ -327,10 +332,11 @@ height: 44px;
 }
 
 .other{
+
   color:#ffffff;
-  height: 16px;
-  width: 116px;
-  line-height: 1.17;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .contacts a {
@@ -374,8 +380,7 @@ margin-right: 10px;
 .social-list-link:focus {
 fill: var(--background-color-white);
 background-color: #2196f3;
- box-shadow:  0 4px 4px  rgba(0, 0, 0, 25%);
-  border-radius: 50%;
+
 }
 
 .social-list-link{
@@ -395,6 +400,10 @@ height: 44px;
   
 }
 
+.my-hover{
+  display: block;
+}
+
 .footer-list-li:not(:last-child){
   margin-right: 10px;
 }
@@ -402,7 +411,8 @@ height: 44px;
 
 .hero {
   background-image: linear-gradient(rgba(47,48,58,40%),rgba(47,48,58,40%)),url(../goit-markup-hw-04/imagine/hero-img.jpg);
-  background-size: cover;
+  background-position: center;
+  background-size: 1600px 600px;
   background-color: var(--background-color-dark);
   text-align: center;
   padding-bottom: 200px;
@@ -474,57 +484,57 @@ li .h3 , li p , .mein-style .width-list{
   margin-bottom: 0;
 }
 
-.width-list:hover::before,
-.width-list:focus::before{
-  box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 25%);
-}
 
 .width-list:nth-child(1)::before{
   content: "";
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 70px 70px;
   background-image: url(./imagine/antenna.svg);
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: #F5F4FA;
+  box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 25%);
 }
 
 .width-list:nth-child(2)::before{
   content: "";
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 70px 70px;
   background-image: url(./imagine/clock.svg);
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: #F5F4FA;
+  box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 25%);
 }
 
 .width-list:nth-child(3):before{
   content: "";
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 70px 70px;
   background-image: url(./imagine/comp.svg);
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: #F5F4FA;
+  box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 25%);
 }
 
 .width-list:nth-child(4):before{
   content: "";
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 70px 70px;
   background-image: url(./imagine/astronaut.svg);
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: #F5F4FA;
+  box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 25%);
 }
 
 .width-list {
@@ -655,7 +665,7 @@ img {
 .client-link:focus{
   fill: var(--decoration-color);
   border: solid 1px var(--decoration-color);
-  box-shadow:  0 4px 4px 0 rgba( 0,0,0,25%);
+  
 }
 
 
@@ -666,13 +676,11 @@ img {
  border: solid 1px rgba(175, 177, 184, 1);
  width: 170px;
  height: 92px;
-   width: 170px;
-  height: 92px;
  display: flex;
  justify-content: center;
  align-items: center;
- padding: 16px 32px 16px 32px;
  fill: #AFB1B8;
+ box-shadow:  0 4px 4px 0 rgba( 0,0,0,25%);
 }
 
 .client-img{
@@ -774,6 +782,7 @@ margin-right: 8px;
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
   background-color: #F5F4FA;
+  border: none;
 }
 
 /* .btn-static:hover{ */
@@ -783,6 +792,7 @@ margin-right: 8px;
 .list-btn .btn-static {
   background-color: var(--decoration-color);
   color: #F5F4FA;
+  
 }
 
 .project-list {
